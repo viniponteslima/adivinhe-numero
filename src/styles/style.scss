@@ -1,0 +1,59 @@
+$bg-color: #692424;
+$color-1: #E8F9FD;
+$font-montserrat: 'Montserrat', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root {
+    font-family: $font-montserrat;
+}
+
+body {
+    background-color: $bg-color;
+    color: $color-1;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+
+    h1 {
+        font-size: 5em;
+    }
+
+    h3 {
+         font-size: 2em;
+         margin-top: 20px;
+    }
+
+    .mensagem {
+        font-size: 1.5em;
+        margin-top: 40px;
+    }
+
+    .box {
+        border: 2px solid $color-1;
+        border-radius: 25px;
+        display: inline-block;
+        font-size: 4em;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #jogarNovamente {
+        border: none;
+        margin-top: 20px;
+        padding: 8px 16px;
+        border-radius: 5px;
+        background-color: $color-1;
+        color: $bg-color;
+        font-weight: 700;
+        font-size: large;
+        cursor: pointer;
+    }
+
+}
